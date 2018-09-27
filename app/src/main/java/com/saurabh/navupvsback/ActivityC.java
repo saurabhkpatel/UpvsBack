@@ -40,7 +40,7 @@ public class ActivityC extends AppCompatActivity {
                           // Navigate up to the closest parent
                           .startActivities();
         } else {
-          // simply go back
+          // simply go back, is this hack ????
           onBackPressed();
         }
         return true;
